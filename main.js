@@ -9,3 +9,17 @@ function kiemtratongAB(){
     }
    
 }
+
+function kiemtraMessenger(){
+    let messenger = document.getElementById("messenger").value
+ 
+    if (messenger == "employee"){
+        document.getElementById("addmessenger").innerText = "Hello"
+    }else if (messenger == "director"){
+        document.getElementById("addmessenger").innerText = "Greeting"
+    }else if (messenger == " "){
+        document.getElementById("addmessenger").innerText = "No login"
+    } else{
+        document.getElementById("addmessenger").innerText = "Bạn chưa nhập gì"
+    }
+}
